@@ -1,17 +1,15 @@
-# Homework4: Web graph computation
-
-Code submitted by : < Julie Kim > | < IS4200/CS6200> | < 002977898 >
+# Web graph computation
 
 ## Objective
-  Compute link graph measures for each page crawled using the adjacency matrix. While you have to use the merged team index, this assignment is individual (You can compare results with your teammates)
+  Compute link graph measures for each page crawled (merged team index from elasticsearch) using the adjacency matrix. 
 
 ####  This assignment involves writing two programs:
 
-1. Task 1 - PageRank -Crawl
-2. Task 2 - Page Rank - other graph
-3. Task3: HITS- crawl
+1. Task 1 - PageRank - Crawl
+2. Task 2 - Page Rank - wt2g_inlinks
+3. Task3 - HITS - hub and authority scores
 
 
 ## Links
 - [Assignment Details](https://course.ccs.neu.edu/cs6200f20/assignments/4.html)
-- [Report Template Document](https://docs.google.com/document/d/1bG2SolLPU0OwvUw6otnV740Pye0zvlpCGdvc_hP0bSg/edit?usp=sharing)
+- [Pseudocode](https://course.khoury.northeastern.edu/cs6200f13/proj1.html)
