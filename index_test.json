@@ -1,0 +1,72 @@
+{
+  "d0": {
+    "inlinks": [
+      "d2"
+    ],
+    "outlinks": [
+      "d2"
+    ]
+  },
+  "d1": {
+    "inlinks": [
+      "d1"
+    ],
+    "outlinks": [
+      "d1",
+      "d2"
+    ]
+  },
+  "d2": {
+    "inlinks": [
+      "d0",
+      "d2",
+      "d1"
+    ],
+    "outlinks": [
+      "d2",
+      "d0",
+      "d3"
+    ]
+  },
+  "d3": {
+    "inlinks": [
+      "d2",
+      "d3",
+      "d6"
+    ],
+    "outlinks": [
+      "d3",
+      "d4"
+    ]
+  },
+  "d4": {
+    "inlinks": [
+      "d3",
+      "d6"
+    ],
+    "outlinks": [
+      "d6"
+    ]
+  },
+  "d5": {
+    "inlinks": [
+      "d5"
+    ],
+    "outlinks": [
+      "d5",
+      "d6"
+    ]
+  },
+  "d6": {
+    "inlinks": [
+      "d5",
+      "d6",
+      "d4"
+    ],
+    "outlinks": [
+      "d6",
+      "d4",
+      "d3"
+    ]
+  }
+}
